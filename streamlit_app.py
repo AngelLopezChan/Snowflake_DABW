@@ -64,3 +64,7 @@ streamlit.header("The fruit load list contains:")
 #streamlit.dataframe(my_data_row2)
 streamlit.dataframe(my_data_rows)
 
+#New section to add new fruit field
+#fruit selected by user
+fruit_adding = streamlit.text_input('What fruit do you like to add?','jackfruit')
+streamlit.write('Thank for adding',fruit_adding)
