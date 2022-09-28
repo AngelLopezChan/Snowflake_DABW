@@ -59,6 +59,6 @@ my_cur2.execute("SELECT * FROM fruit_load_list")
 my_data_row2 = my_cur2.fetchone()
 #streamlit.text("The fruit load list contains:")
 #streamlit.text(my_data_row2)
-streamlit.haeder("The fruit load list contains:")
+streamlit.header("The fruit load list contains:")
 streamlit.dataframe(my_data_row2)
 
